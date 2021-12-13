@@ -1,0 +1,85 @@
+
+html{
+    overflow: hidden;
+}
+.pre{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    overflow: hidden;
+}
+.sBlock{
+    
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/sBlock.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 33% 0px;
+
+}
+.sBlock::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50%;
+    bottom: 0;
+    background-color: rgba(24, 66, 80, 0.5);
+    transition: all .5s ease;
+}
+
+.sBlock:hover::before{
+    background-color: rgba(24, 66, 80, 0);
+}
+.aBlock{
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/aBlock.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 67% 0px;
+
+}
+.aBlock::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(231, 16, 116, 0.5);
+    transition: all .5s ease;
+}
+
+.aBlock:hover::before{
+    background-color: rgba(231, 16, 116, 0);
+}
+h1{
+    letter-spacing: 8px;
+    font-family: "Pokemon";
+    color: white;
+}
+.w_l{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    letter-spacing: 8px;
+    font-family: "Pokemon";
+    color: white;
+    font-size: 60px;
+    bottom: 10px;
+
+}
+.w_t{
+    
+    -webkit-text-stroke: 2px #E71075;
+    
+}
+.l_t{
+
+    letter-spacing: 14px;
+    -webkit-text-stroke: 2px #184250;
+   
+}

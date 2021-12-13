@@ -1,0 +1,36 @@
+
+body{
+    background-image:url("../img/a_list.png") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    font-size: 50px;
+    font-family: "Pokemon";
+    text-align: center;
+    color: transparent; /* прозрачный цвет букв */
+    -webkit-text-stroke: 2px #E71075;
+    letter-spacing: 10px;
+    background-color: #211C20;
+}
+.list{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.list_item{
+    width: 150px;
+    height: 150px;
+    background-color: #E71075;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    
+}
